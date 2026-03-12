@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Article CMS (FlaskWebProject)
 
 This project is a Python web application built using Flask. The user can log in and out and create/edit articles. An article consists of a title, author, and body of text stored in an Azure SQL Server along with an image that is stored in Azure Blob Storage. You will also implement OAuth2 with Sign in with Microsoft using the `msal` library, along with app logging.
@@ -67,3 +68,6 @@ All Python dependencies are stored in the requirements.txt file. To install them
     ```
 - Check [here](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15) to add SQL Server drivers for Mac.
 - If you get an error when installing the dependencies `AttributeError: module 'collections' has no attribute 'MutableMapping'`, verify that you are on Python version 3.12 as there are known incompatibility issues with 3.10
+=======
+# Article-CMS-Project
+>>>>>>> 38b433ac57781ac247113c65f9a949bad8ccbb8e
